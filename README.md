@@ -7,7 +7,7 @@ To create a CloudFormation Stack (and also subsequently update it), use:
 
 ``` sls deploy ```
 
-It will be called send-email-prod (you can edit this in the serverless.yml)
+It will be called `send-email-prod` (you can edit this in the serverless.yml)
 
 
 You can test the Lambda locally (be aware it does send an actual email) with:
