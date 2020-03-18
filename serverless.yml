@@ -10,11 +10,11 @@ provider:
   versionFunctions: true
   memorySize: 1024
   timeout: 10
-  logs:
-    restApi: true
-  apiKeys:
-    - admin_key
-    - testing_key
+  # logs:
+  #   restApi: true
+  # apiKeys:
+  #   - admin_key
+  #   - testing_key
   tags:
     deployment: serverless.com
 
@@ -34,4 +34,9 @@ provider:
 functions:
   send-email:
     handler: send_email_handler.lambda_handler
+    # events:
+    #   - http:
+    #       path: /send_email
+    #       method: get
+    #       private: true
 
