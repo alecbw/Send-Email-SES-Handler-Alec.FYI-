@@ -5,7 +5,9 @@ This repo uses the serverless.com Infrastructure-as-code platform (which itself 
 
 To create a CloudFormation Stack (and also subsequently update it), use:
 
-``` sls deploy ```
+``` 
+sls deploy
+```
 
 It will be called `send-email-prod` (you can edit this in the serverless.yml)
 
