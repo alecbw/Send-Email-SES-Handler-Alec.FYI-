@@ -33,5 +33,5 @@ provider:
 
 functions:
   send-email:
-    handler: handlers/send_email_handler.lambda_handler
+    handler: send_email_handler.lambda_handler
 
