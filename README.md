@@ -1,3 +1,6 @@
+# Related article
+https://www.alec.fyi/setup-email-sending-for-anything.html
+
 # Using this
 
 
